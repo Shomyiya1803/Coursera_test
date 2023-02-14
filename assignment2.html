@@ -72,7 +72,39 @@
             color: #eb4deb;
         }
 
+        /*Desktop view*/
+        @media ( min-width: 992px) 
+            .para1, .para2, .para3{
+                
+                float: left;
+                width: 33.33%;
+        }
+        
+        /*Tablet view*/
+        @media (min-width: 768px) and (max-width: 991px){
+    .para1, .para2 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .para3 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile View*/
+@media (max-width: 767px){
+    .para1 , .para2 , .para3 {
+        float: left;
+        width: 100%;
+    }
+}
+        
     </style>
 </head>
 
